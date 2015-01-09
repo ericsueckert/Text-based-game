@@ -1,0 +1,22 @@
+S:: You are cool.
+S:: 1) Yes I am | Do you like potatoes or cats more?
+S:: 1) Potatoes | Welcome to the land of potatoes.
+S:: 1) Thank you. | You are welcome to befriend potatoes or eat them.
+F:: 1) Eat | You are less hungry now. Congratulations.
+F:: 2) Befriend | You are now friends with a potato. Congratulations.
+E::
+E::
+E::
+S:: 2) Cats | Welcome to the land of cats.
+S:: 1) Thank you. | You are welcome to eat or befriend cats.
+F:: 1) Eat | You are a monster. Re think your life.
+S:: 2) Befriend | You are friends with a cat. This is neat.
+F:: 1) Am I a lonely cat lady? | Yes. Congratulations.
+E::
+E::
+E::
+E::
+E::
+E::
+E::
+E:: 

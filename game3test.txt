@@ -1,0 +1,305 @@
+E®i© & ™Å§’S nÆ† 9åm€
+
+Number of Checkpoints: 11
+
+Checkpoint 11 Library
+S::: Continue | you go to the library
+S::: Talk to Librarian | talk
+S::: Chat about stuff | you chat.
+RC11 Go back | youre in the library
+E:::
+E:::
+S::: Ask about weird building | "What do you want to know?"
+F::: I'm from there | guards arrest you
+S::: I passed by it on my way to town | "I'm not sure what it is but there are books on it." $ There are books about the building. * Building Name # 1
+RC11 Go back | youre in the library
+E:::
+E:::
+E:::
+E:::
+S::: Take a look around | it's a library there are books
+NC10 Look at newspapers | there are articles about the building. you're mental.
+NC10 Research the building | Its a mental facility ( Building Name = 1
+E::: 
+RC07 Go back to town | you exit the library
+End//
+
+Checkpoint 10 You discover you're mental
+S::: You are mental | awesome
+F::: commit suicide | you die! end.
+E::: 
+E:::
+End//
+
+Checkpoint 9 City
+S::: You are in the city! | awesome
+F::: you win? for now... | end
+E::: 
+E:::
+End//
+
+Checkpoint 8 Inside the barn
+S::: Enter the barn | You enter the barn in search of food. You notice a stash of corn and some chickens in a coop.
+S::: Eat corn | You stuff yourself with some corn. You're very full now.
+F::: Sleep | You decide to take a nap after your feast. When you wake up, an old, angry farmer stands over you with a pitchfork. You know how this ends. You die.
+NC09 Leave | You exit the barn and make your way back to the road. Replenished, you make your way to Cityville.
+RC08 Look for more food | You decide to look for more food around the barn.
+S::: Kill chicken | You catch a chicken and snap its neck. Before it dies, it releases a bloodcurling screech that alerts the farmer. $ Freshly killed raw chicken. * Raw chicken # 1
+F::: Sit and eat chicken | You sit down, criss-cross applesauce and gorge yourself on raw chicken. The farmer runs into the barn with a pitchfork and stabs you to death. ( Raw chicken = 1
+S::: Run away | You manage to escape before the farmer arrives. You're back on the road now.
+S::: Eat raw chicken | You gorge yourself on the carcass of a freshly killed chicken. You are full now. ( Raw chicken = 1
+S::: Keep walking | You keep walking, but it's late now. A car passes by.
+F::: Keep walking | You decide to keep walking. At midnight, a pack of wolves tracks you down by the scent of chicken blood and eats you alive. 
+NC09 Flag down car | You stop a car. The driver is nice enough to take you to Cityville.
+E:::
+F::: Flag down car | You stop a car while holding a raw chicken. The driver notices the farm and realizes you stole the chicken. He catches you and turns you in.
+E:::
+E:::
+E:::
+E:::
+E:::
+End//
+
+Checkpoint 7 Town
+S::: Continue | You arrive in Townsend.
+NC11 Go to Library | go to library
+S::: Go to the bar | go to bar
+S::: Buy a drink | you buy a drink and you accidentally walk into someone
+S::: Apologize | the guy turns out to be chill. you start talking and then he realizes that you're his brother. he takes off running.
+S::: Don't chase him | you let him go.
+F::: Leave bar | you're drunk. got hit by car
+F::: Why did I apologize | you realize you're a softie. commit suicide because you feel ashamed of yourself
+E:::
+F::: Chase him | You follow him to a familiar house. You burst in, see your family. Why is this happening I feel so angry I'm going to murder you all guards arrive arrest you.
+E:::
+S::: Don't apologize | why were you in my way punk you want some beef
+S::: Knife him | i killed him that stupid idiot $ The man's wallet fell out of his pocket * Wallet # 1 ( Knife = 1
+F::: Chill in the bar | get arrested doe
+S::: Get out of here | im out of this joint
+S::: Inspect wallet | who was this guy  wait why is there a picture of me... what is going on there's a note in here i was sent to a mental facility?!!?! ( Wallet = 1
+S::: Go to the man's house | his address is on the driver's license
+S::: I should get a gun | you stop by the gun shop $ You buy a gun * Gun # 1
+F::: Continue to house | you kill everyone then yourself 
+E:::
+E:::
+S::: I should get a knife | you stop by the knife shop $ You buy a knife * Knife # 1
+F::: Continue to house | you kill everyone then yourself 
+E:::
+E:::
+S::: I should get a bomb | you stop by the bomb shop $ You buy a bomb * Bomb # 1
+F::: Continue to house | you kill everyone including yourself 
+E:::
+E:::
+S::: Scream in rage | bystanders ask what's wrong
+F::: I want to kill everyone | you go to jail
+F::: Start swinging at people | arrested
+F::: Scream at the top of your lungs and ask god why i'm mental | guards arrive and take you away
+F::: Kill everyone around you | nope ( Nuclear Bomb = 1
+F::: Keep running to escape | you're drunk get hit by car
+E:::
+E:::
+F::: Fight with hands | you get beat doe
+E:::
+F::: Shoot the bastard with a shotgun | blow his head off ( Shotgun = 1
+F::: Don't buy a drink | you die of thirst
+RC07 Go back to town | exit bar
+S::: Go to the general store | why is everyone giving me a dirty look what's wrong with people
+F::: Yell at them | they are scared they call police get arrested 
+S::: Stab them | die you idiot this is what you deserve ( Knife = 1
+NC10 Laugh | you people are crazy i hope you all die but i'm mental 
+F::: I must kill them all | killing spree yes fall before me you worthless beings police shoot you
+S::: i need to get away | The cops are after me. what are they saying? who's that... is that my family? they want me to stop?
+F::: stop | police kill you
+F::: kill family | i will end you all what have i done stab myself
+E:::
+F::: Ignore them all | they called the guards on me and now im caught
+End//
+
+Checkpoint 6 On the way to City
+S::: Continue | A few miles down the road, you see several cars passing by.
+S::: Keep walking | You decide to ignore the cars and keep walking. You notice that you're getting hungry. Fortunately, you come by a farm by the side of the road.
+F::: Keep walking | You decide to ignore your stomach and keep walking. A few miles later, you collapse on the ground with no more energy to keep going. You die of starvation. Weak.
+S::: Approach farm | You turn off the road and walk down a small trail to the farm. You hear voices coming from the house on the farm, and you also notice the barn door has been left open.
+S::: Knock on door | The voices stop. After a period of silence, you hear the door unlock and slowly open. An old farmer takes one look at you and grows pale. Suddenly, he yells at you to leave and slams the door shut.
+F::: Knock again | The door flies open, and you stare in shock right into the barrels of a shotgun. The farmer yells, “This ain’t no place for no looneys! I’m gonna tear you a new corn-chute!” as he shoots you in the face. GG no re.
+RC06 Go back to the road | You return to the road and keep walking towards Cityville.
+E:::
+NC08 Sneak into barn | You slip into the shadows and make your way to the barn.
+E:::
+E:::
+S::: Flag down a car | You turn to face the cars and wave your hands like a maniac. One of the cars slows to a stop next to you.
+S::: Ask for a ride | The driver looks at you suspiciously.
+S::: Talk to the driver | You casually talk to the driver, asking him where he's headed. He responds that he's going to Cityville, and asks where you're from.
+NC09 Cityville | The driver tells you to get in the car. Too exhausted to deny his invitation, you get in the car. The driver takes you to Cityville.
+S::: Townsend | By now, the driver is extremely skeptical. He asks what you are doing out here.
+NC09 Tell driver you were camping and got lost | The driver's look softens. He tells you to get in the car and you agree. The driver takes you to Cityville.
+NC10 Tell driver you escaped from some facility | The driver stares at you as he turns pale. He immediately floors it, and speeds off into the night, leaving you stranded.
+E::: 
+RC06 Ignore driver and keep walking | You ignore the driver's question and walk off. The driver curses at you as he speed off.
+F::: Fight driver using your hands | You walk over to the driver's side, and try to open the door. It's locked. The driver backs the car up, gives you a crazy look and runs you over. You bleed out like forgotten roadkill.
+S::: Fight driver using a stick | You walk over to the driver's side and smash the window using a stick . The glass cuts up the driver and you subdue him with a few blows. You dump the body and take the car. $ You acquire a car * Car # 1 ( Stick = 1
+NC07 Drive to Townsend | You casually drive to Townsend.
+NC09 Drive to Cityville | You casually drive to Cityville.
+F::: Gas pedal | You slam on the gas pedal. #YOLO, right? A deer runs out from the side of the road, and you swerve to avoid it. You fly off the road into a telephone pole, and as the car makes impact with the cold, hard wood, you feel your spine crumble and your life flash before your eyes as you watch the engine catch fire. RIP Paul Walker. 
+S::: Ask driver for your location | The driver turns out to be a tourist and doesn't know. However, he offers you a ride to the city.
+NC09 Accept offer | You get into the car and the driver takes you to Cityville.
+S::: Deny offer | You deny the driver's offer. He offers you a flashlight and wishes you luck on your journey. $ The driver offers you a flashlight. * Flashlight # 1
+F::: Keep walking | As the sun sets and the sky darkens, you turn on your flashlight as you walk to avoid falling into the ditch by the side of the road. However, the light attracts a bear that mauls you to death.
+NC09 Flag down a car using flashlight | Using your flashlight, you signal a car. The driver lets you in the car and scolds you for being out at this time of night. However, he does take you to Cityville.
+E:::
+E:::
+E:::
+S::: Stand in middle of road | You jump into the middle of the road. A car swerves by, narrowly missing you. The driver stops and gets out of his car, looking very angry.
+F::: Do nothing | The driver starts beating you for being so careless. Ironically, he is so angry that he beats you to death.
+S::: Fight the driver with your hands | You engage in physical combat with the driver. However, other drivers get out of their cars to stop the fight. 
+F::: Run away from the crowd | You break free from the crowd's grasp and run into the forest. When night falls, you are lost and can't seem to find your way. The only thing you find is a bear's mouth before you die.
+NC09 Talk it out | You talk it out like civilized adults. You explain that you don't know what came over you. Worried, a driver takes you to Cityville.
+E:::
+S::: Fight the driver with a stick | You wait for the driver to approach. Then, with one swift motion, you swing your stick, catching the driver's jaw and snapping his neck. $ You can take his car. * Car # 1
+NC07 Drive to Townsend | You casually drive to Townsend.
+NC09 Drive to Cityville | You casually drive to Cityville.
+F::: Gas pedal | You slam on the gas pedal. Gas pedal, gas pedal. You wiggle like you're trying to make your butt fall off. While you're doing this, you don't realize the turn in the road. As your car crashes, you fly through the windshield which ironically happens to slice your butt off. You win a Darwin Award. 
+End//
+
+Checkpoint 5 Looking for food in the Woods
+S::: Continue | You look for food in the woods. You hear a river nearby, and there may be food in nearby foliage.
+S::: Look for food by the river | You head towards the sound of the river, in hopes of catching fish to eat.
+F::: Try to catch fish with hands | Unfortunately, the fish swim too fast for your clumsy hands. You spend your last hours, kneeling by the river, disappointed at your failure in life. You die.
+S::: Try to catch fish using stick | Through some amazing skill, you manage to spear two fish. You hungrily devour one of the fish, but the smell has attracted a wolf. $ There is a fish on the ground. * Fish # 1 ( Stick = 1
+F::: Fight wolf with hands | The wolf empowers you and rips out your throat with its sharp teeth. You bleed out on the banks of the river. 
+NC07 Fight wolf with stick | You manage to beat down the wolf before it gains an advantage over you. Scared, you flee from the forest and head towards Townsend. $ Wolf's fur is on the ground. * Fur # 1
+NC07 Offer fish and run away | Frantically, you toss your hard-earned fish before the wolf, which luckily accepts your offering and allows you to flee. Scared for your life, you head towards Townsend. ( Fish = 1
+RC05 Go back | You decide to look for food elsewhere.
+S::: Look for food in foliage | You decide to look for food in foliage. You find several options to choose from.
+S::: Explore berry bush | You pick berries from a friendly-looking bush. $ There are berries in the bush. * Berries # 3
+NC07 Eat berries | You satiate your hunger with berries. Happy, you head towards Townsend. ( Berries = 1
+F::: Don't eat berries | You abstain from eating the berries and starve to death. Poor you.
+RC05 Go back | You decide to look for food elsewhere.
+S::: Explore fruit tree | You pick a nice looking fruit from a tree. $ There is a fruit in the tree. * Fruit # 1
+F::: Eat fruit | Turns out the fruit was poisonous. You fall to the ground. The last sight you see is a snake slithering into view. 
+RC05 Go back | You decide to look for food elsewhere.
+E:::
+S::: Explore mushrooms | You pick a couple mushrooms from the ground. $ There are mushrooms on the ground. * Mushroom # 2
+NC07 Eat mushroom | After one bite of mushroom, you start tripping like mad. Somehow, when you regain consciousness, you are in Townsend. ( Mushroom = 1
+S::: Don't eat mushroom | You stare at the mushrooms. You lose track of time, and when you snap back into reality there is a bear approaching you menacingly.
+S::: Give bear mushroom | The bear prepares to take a bite out of you, but you throw a mushroom into its mouth. The bear starts tripping mad, giving you time to escape. However, you are still hungry. ( Mushroom = 1
+NC07 Eat mushroom | You eat the mushroom to satisfy your hunger, but start tripping mad. Somehow, when you regain consciousness, you are in Townsend. ( Mushroom = 1
+F::: Don't eat mushroom | Your vision fades as hunger overcomes you. You die of starvation.
+E:::
+F::: Do nothing | You helplessly stare as the bear opens its mouth and takes a bite out of you. You die.
+E:::
+RC05 Go back | You decide to look for food elsewhere.
+E::: 
+End//
+
+Checkpoint 4 Outside the Mental Facility
+S::: Continue | You have escaped your confinement. Outside, there is a sign indicating two nearby populations.
+S::: Sleep | Tired from your ordeal, you decide to take a nap outside the building. You wake up in the morning, with guards running towards you.
+F::: Stay where you are | You continue being lazy, and the guards capture you and lock you up in a more secure cell for the rest of your life. You die after a long and uneventful life.
+F::: Run away | You get off your lazy butt and start running away from the guards. Unfortunately, they release guard dogs that catch up with you and bite you to death. 
+E:::
+S::: Walk towards Townsend, 10 miles away | You embark on a journey towards Townsend. After walking 5 miles, you realize that you're very hungry.
+S::: Walk back | You turn around and head back. A mile down the road, you smell a whiff of food. At this point, you're on the verge of starving to death.
+F::: Ignore the smell | You keep walking, ignoring all your humanly instincts. A mile later, you fall to the ground, unable to stand any longer. You starve to death.
+S::: Approach the smell | You follow the smell off the road and into a nearby forest. You soon come to a clearing with people gathered around a campfire.
+S::: Greet the people | The people turn out to be jolly fellows from Townsend, away on a camping trip. They give you food and ask you where you're from. You reply:
+NC07 The guarded facility down the road | The campers looked puzzled. After a long period of silence, they tell you you can probably find out more at the town library. They then give you a ride to town.
+S::: From Townsend | The campers act surprised. Turns out they're from Townsend. They ask if you would like a ride back to town.
+NC07 Accept Ride | The campers give you a ride back to town.
+F::: Deny Ride | You deny their invitation to get a ride back to town. You return to the road and keep walking. Unfortunately, the guards have tracked you down and capture you. The end.
+E::: 
+S::: From Cityville | The campers seem skeptical about your response. After all, your clothes are torn and you are rather unkempt. They suddenly turn hostile. 
+F::: Stay where you are | The campers figure you must've escaped from the nearby facility. They detain you and call the guards, who arrive shortly to end you.
+NC05 Run away | You run further into the forest to avoid the campers. You're hungry again.
+E:::
+S::: Fight the people using a stick | You brutally beat the jolly campers to a painful death. It was a sad day. $ The campers' knife is on the ground * Knife # 1 ( Stick = 1
+NC07 Go to Townsend | After eating the campers' food, you are renewed and continue your journey to Townsend.
+NC05 Look for more food in the forest | You decide to look for more food to eat.
+E:::
+F::: Fight the people using your hands | You stupidly try to show off your martial arts skills, but they are ineffective against the hoard of campers. They beat you down. You die.
+E:::
+F::: Keep walking | You stubbornly decide to press on. By this time, the guards have caught up to you and subdue you. You die.
+NC05 Look for food in the forest | You walk off the road into the forest to scavenge for food.
+NC06 Walk towards Cityville, 15 miles away | You embark on a trek towards Cityville, 15 miles away. 
+End//
+
+Checkpoint 3 Room - Look Around
+S::: Continue | There are several things around the room that may be of interest.
+S::: Inspect Door | A solid iron door with a window.
+S::: Insect Window | A tinted window so that you can't see outside. However, it's big enough for a person to fit through.
+S::: Break Window with Hands and Escape | You wind up and throw your fist into the window, shattering both the window and your hand. However, you manage to crawl through with a few cuts. The guards approach fast.
+F::: Fight the Guards | You start to punch the guards but realize that your fist is broken. They easily subdue you with quick blows to the head. You die.
+F::: Sit and Wait | You calmly sit down on the ground, criss-cross applesauce. However, the guards are unphased and bash your head in. You die.
+E::: 
+S:: Break Window with Stick | Using the sticks from the chair, you smash the window and manage to crawl through with a few cuts. ( Stick = 1
+NC04 Fight the Guards | Equipped with the remains of a sturdy chair, you engage the guards with rage of a cornered animal. You manage to defeat the guards, crushing their heads into a pulp. Afterwards, you escape the building uncontested.
+F::: Sit and Wait | You calmly sit down on the ground, criss-cross applesauce. However, the guards are unphased and bash your head in. You die.
+E:::
+RC03 Go back | You look around the room. There are a few things that may be of use.
+RC03 Open the door | The door is locked. Tough luck.
+RC03 Go back | You look around the room. There are a few things that may be of use.
+S::: Inspect Chair | A sturdy-looking chair, showing signs of wear and brown stains.
+S::: Sit down | The chair creaks uneasily under your weight.
+S::: Take apart | You remove some loose screws and the chair falls into a pile of sticks that may come in handy. $ There are sticks on the ground * Stick # 3
+RC03 Go back | You look around the room. There are a few things that may be of use.
+E:::
+E:::
+RC03 Go back | You look around the room. There are a few things that may be of use.
+E:::
+S::: Break the doorknob using the chair as leverage | You manage to break the doorhandle, and the door swings open. The noise has brought several guards to your door.
+F::: Fight the Guards | You choose to fight the guards with your bare hands, while they are equipped with batons. You are easily subdued and crushed. You die.
+F::: Sit and Wait | You calmly sit down on the ground, criss-cross applesauce. However, the guards are unphased and bash your head in. You die.
+E:::
+RC03 Go back | You look around the room. There are a few things that may be of use.
+S::: Inspect Lamp | The lamp illuminates the room with an eerie glow. The lightbulb flashes on and off, indicating that it may be loose.
+RC03 Reach for the bulb | You grasp the bulb in your palm. The hot bulb burns your hand, and you run back into the middle of the room in pain.
+S::: Turn off the light | You switch the light off. The room falls into darkness. After a moment, you see the grainy figure of a lamp in front of you.
+S::: Take lightbulb | You reach for the lightbulb. You turn counter-clockwise a few turns, and the lightbulb comes loose. However, the lightbulb is still hot and you accidentally drop it, shattering the bulb. $ In the shattered remains of the bulb, you find the filament still intact. * Filament # 1
+NC04 Pick the door | Using your lock-picking prowess, you manage to align the pins in the tumbler, and the door unlocks. The guards outside are sound asleep, and you manage to sneak out of the facility undetected. ( Filament = 1
+RC03 Go back | You look around the room. There are a few things that may be of use.
+E:::
+RC03 Turn light on | You flip the switch again. For a moment, you are blinded by the light. 
+E:::
+RC03 Go back | You look around the room. There are a few things that may be of use.
+End//
+
+Checkpoint 2 Room - Lay There
+S::: Continue | You think about what to do.
+F::: Give up hope | You have given up hope. You spend the rest of your life in the room and die.
+S::: Gather yourself together | You're ready to take action
+S::: Call for help | You hear footsteps nearing. A voice tells you to shut up. It seems to be a guard.
+RC02 Shut up | You shut up and lay down on the bed.
+S::: Keep yelling | The guard who yelled at you enters the room and begins to beat you with a baton.
+RC02 Curl up and cry | You admit defeat and pathetically crawl back to your bed and continue crying.
+S::: Reach and try to grab the baton | The guard sees what you're trying to do and breaks both your arms.
+F::: Continue | Your arms are now broken. You suffer in the room without treatment and die.
+E:::
+E:::
+S::: Spit in the guard's face | The guard yells in disgust, and pauses to wipe his face.
+S::: Grab the baton | You manage to get the baton while the guard is distracted. You beat him until he's unconscious. $ The guard has keys on his belt * Keys # 1
+F::: Kill the guard | You take out all your anger on the guard, beating his skull into a mush against the concrete. Unfortunately while you were carried away, the other guards heard the commotion and suppress you. You die.
+S::: Leave quickly | You turn towards the door but it's closed now.
+NC04 Open the door | You run out the door and down the hallway. ( Keys = 1
+F::: Turn around | Without the key, you have no way to escape. The guard eventually wakes up and beats you to death. Good.
+E:::
+E:::
+F::: Laugh at the guard | The guard wipes the spit from his face and beats you with renewed vigor. He kills you.
+E:::
+S::: Fake being in pain | The guard opens the door. "The fuck's wrong with you?" He says.
+F::: Charge at the guard | The guard sidesteps and beats you down. He kills you.
+S::: Complain about stomach pain | The guard tells you to take a shit.
+RC02 You take a shit | That felt good.
+RC02 You don't take a shit | Like why would you do that.
+E:::
+E:::
+F::: Do nothing | You got your hopes up for nothing. You eventually die.
+E:::
+E:::
+End//
+
+Checkpoint 1 Concrete Room
+S::: Start of the game | You wake up in a dark concrete room.
+NC02 Lay There | You think about what to do.
+NC03 Look Around | You look around the room. There are a few things that may be of use.
+E:::
+End//

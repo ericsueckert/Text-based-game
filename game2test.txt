@@ -1,0 +1,97 @@
+E®i© & ™Å§’S nÆ† 9åm€
+
+Number of Checkpoints: 5
+Checkpoint 5
+S:: You are outside undetected | awesome
+F:: you win? for now... | end
+E:: 
+E::
+End//
+
+Checkpoint 4
+S:: i like poop | yup i do haha
+F:: fdlajflkda | end
+E::
+E::
+End//
+
+Checkpoint 3
+S:: Continue | You’re gay
+S:: Inspect Door | A solid iron door with a window.
+S:: Insect Window | A tinted window so that you can't see outside. However, it's big enough for a person to fit through.
+S:: Break Window with Hands and Escape | You wind up and throw your fist into the window, shattering both the window and your hand. However, you manage to crawl through with a few cuts. The guards approach fast.
+F:: Fight the Guards | You start to punch the guards but realize that your fist is broken. They easily subdue you with quick blows to the head. You die.
+F:: Sit and Wait | You calmly sit down on the ground, criss-cross applesauce. However, the guards are unphased and bash your head in. You die.
+E:: 
+S:: Break Window with Stick | Using the sticks from the chair, you smash the window and manage to crawl through with a few cuts. $ test * item # 1 ( Stick = 1
+NC4 Fight the Guards | Equipped with the remains of a sturdy chair, you engage the guards with rage of a cornered animal. You manage to defeat the guards, crushing their heads into a pulp. Afterwards, you escape the building uncontested.
+F:: Sit and Wait | You calmly sit down on the ground, criss-cross applesauce. However, the guards are unphased and bash your head in. You die.
+E::
+RC3 Go back | You look around the room. There are a few things that may be of use.
+RC3 Open the door | The door is locked. Tough luck.
+RC3 Go back | You look around the room. There are a few things that may be of use.
+S:: Inspect Chair | A sturdy-looking chair, showing signs of wear and brown stains.
+S:: Sit down | The chair creaks uneasily under your weight.
+S:: Take apart | You remove some loose screws and the chair falls into a pile of sticks that may come in handy. $ There are sticks on the ground * Stick # 3
+RC3 Go back | You look around the room. There are a few things that may be of use.
+E::
+E::
+RC3 Go back | You look around the room. There are a few things that may be of use.
+E::
+S:: Break the doorknob using the chair as leverage | You manage to break the doorhandle, and the door swings open. The noise has brought several guards to your door.
+F:: Fight the Guards | You choose to fight the guards with your bare hands, while they are equipped with batons. You are easily subdued and crushed. You die.
+F:: Sit and Wait | You calmly sit down on the ground, criss-cross applesauce. However, the guards are unphased and bash your head in. You die.
+E::
+RC3 Go back | You look around the room. There are a few things that may be of use.
+S:: Inspect Lamp | The lamp illuminates the room with an eerie glow. The lightbulb flashes on and off, indicating that it may be loose.
+RC3 Reach for the bulb | You grasp the bulb in your palm. The hot bulb burns your hand, and you run back into the middle of the room in pain.
+S:: Turn off the light | You switch the light off. The room falls into darkness. After a moment, you see the grainy figure of a lamp in front of you.
+S:: Take lightbulb | You reach for the lightbulb. You turn counter-clockwise a few turns, and the lightbulb comes loose. However, the lightbulb is still hot and you accidentally drop it, shattering the bulb. $ In the shattered remains of the bulb, you find the filament still intact. * Filament # 1
+NC5 Pick the door | Using your lock-picking prowess, you manage to align the pins in the tumbler, and the door unlocks. The guards outside are sound asleep, and you manage to sneak out of the facility undetected. ( Filament = 1
+RC3 Go back | You look around the room. There are a few things that may be of use.
+E::
+RC3 Turn light on | You flip the switch again. For a moment, you are blinded by the light. 
+E::
+RC3 Go back | You look around the room. There are a few things that may be of use.
+End//
+
+Checkpoint 2
+S:: Continue | You think about what to do.
+F:: Give up hope | You have given up hope. You spend the rest of your life in the room and die.
+S:: Gather yourself together | You're ready to take action
+S:: Call for help | You hear footsteps nearing. A voice tells you to shut up. It seems to be a guard.
+RC2 Shut up | You shut up and lay down on the bed.
+S:: Keep yelling | The guard who yelled at you enters the room and begins to beat you with a baton.
+RC2 Curl up and cry | You admit defeat and pathetically crawl back to your bed and continue crying.
+S:: Reach and try to grab the baton | The guard sees what you're trying to do and breaks both your arms.
+F:: Continue | Your arms are now broken. You suffer in the room without treatment and die.
+E::
+E::
+S:: Spit in the guard's face | The guard yells in disgust, and pauses to wipe his face.
+S:: Grab the baton | You manage to get the baton while the guard is distracted. You beat him until he's unconscious. $ The guard has keys on his belt * Keys # 1
+F:: Kill the guard | You take out all your anger on the guard, beating his skull into a mush against the concrete. Unfortunately while you were carried away, the other guards heard the commotion and suppress you. You die.
+S:: Leave quickly | You turn towards the door but it's closed now.
+NC4 Open the door | You run out the door and down the hallway. ( Keys = 1
+E::
+E::
+E::
+F:: Laugh at the guard | The guard wipes the spit from his face and beats you with renewed vigor. He kills you.
+E::
+S:: Fake being in pain | The guard opens the door. "The fuck's wrong with you?" He says.
+F:: Charge at the guard | The guard sidesteps and beats you down. He kills you.
+S:: Complain about stomach pain | The guard tells you to take a shit.
+RC2 You take a shit | That felt good.
+RC2 You don't take a shit | Like why would you do that.
+E::
+E::
+F:: Do nothing | You got your hopes up for nothing. You eventually die.
+E::
+E::
+End//
+
+Checkpoint 1
+S:: Start of the game | You wake up in a dark concrete room.
+NC2 Lay There | You think about what to do.
+NC3 Look Around | You look around the room. There are a few things that may be of use.
+E::
+End//
